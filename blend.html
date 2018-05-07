@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blending mode</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+#myDIV{
+	width: 50%;
+	height: 650px;
+	background-repeat: no-repeat, repeat;
+	background-image: url("dog4.png"), url("doggy.png");
+	background-blend-mode: multiply;
+}
+#myDIV2{
+	width: 50%;
+	height: 650px;
+	background-repeat: no-repeat, repeat;
+	background-image: url("dog4.png"), url("doggy.png");
+	mix-blend-mode: multiply;
+}
+
+	</style>
+</head>
+<body>
+<h2 style="text-align: center;"> BACKGROUND BLEND MODE (multiply)</h2>
+<div id="myDIV"></div>
+<h2 style="text-align: center;"> MIX BLEND MODE (multiply)</h2>
+<div id="myDIV2"></div>
+</body>
+</html>

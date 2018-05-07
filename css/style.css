@@ -1,0 +1,16 @@
+body{
+	background-color: honeydew;
+	padding: 20px
+}
+#myDIV{
+	margin: 40px;
+	border-radius: 8px;
+	margin-left: 23%;
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+#myDIV2{
+	margin: 40px;
+	border-radius: 8px;
+	margin-left: 23%;
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
